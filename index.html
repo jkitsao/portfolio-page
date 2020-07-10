@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <title>Portfolio-page</title>
   </head>
   <body>
@@ -24,14 +25,39 @@
     <div class="first-content">
       <div class="left-content">
         <h2 class="content-text">
-          Hello stranger, i'm Jackson kitsao and i am a Software Engineer from
+          Hello stranger,i'm Jackson kitsao and i am a Software Engineer from
           Nairobi,Kenya passionate about developing innovative products geared
           toward simplifying & Improving life.
         </h2>
+        <div class="code-block">
+          <span class="console-text"></span>
+        </div>
       </div>
       <div class="right-content">
         <img src="images/coder.jpg" alt="programmer" class="coder-image" />
       </div>
     </div>
+
+    <!-- second content div -->
+
+    <div class="second-content">
+      <div class="second-left-content">
+        <img src="images/htmlbg.jpg" alt="html background" class="html-image" />
+      </div>
+      <div class="second-right-content">
+        <h3 class="second-text">
+          Here are some of the languages i interact with
+        </h3>
+      </div>
+    </div>
+
+    <script>
+      var typed = new Typed(".console-text", {
+        strings: [":~$ console.log('hello world') : ^2000\n `Hello world`"],
+        typeSpeed: 80,
+        startDelay: 1150,
+        showCursor: false,
+      });
+    </script>
   </body>
 </html>
