@@ -193,8 +193,62 @@
 
   }
   @media only screen and (max-width: 700px) {
+    nav{
+        padding:0.3rem 0;
+        background-color: rgb(0, 0, 15);
+         background-position: center;
+         background-repeat: repeat-x;
+        display:flex;
+        justify-content: center;
+        border-bottom:0.3rem solid orange;
+    }
+    .logo{
+        padding-left:1rem;
+        display:flex;
+        width: 50%;
+    }
+    .logo-image{
+        width:30%;
+        height:4rem;
+    }
+    .logo-text{
+        color:rgb(228, 227, 235);
+        font-size: 1.5rem;
+        font-weight: 700;
+        
+    }
+    .typer{
+        color:green;
+    }
+    .link-cont{
+        display:flex;
+        align-items: center;
+        overflow: scroll;
+        width: 100%;
+        /* padding-right:1rem; */
+    }
+    .link-ul{
+        display: flex;
+        
+    }
+    .link-ul li{
+        margin-left:0.2rem;
+        margin-right:0.2rem;
+        list-style: none;
+    }
+    .link-ul li a{
+        text-decoration: none;
+        font-size: 1rem;
+        color:lime;
+    }
+    .link-ul li a:hover{
+      color:white;
+    }
+    /* first content starts here */
+    
       
     .first-content{
+        overflow: hidden;
         display:block;
         height:100%;
     }
@@ -209,11 +263,11 @@
             font-weight: 500;
             color:rgb(59, 2, 40);
             font-family: 'Balsamiq Sans', cursive;
-            margin:0;
+            margin:1rem;
         /* font-family: 'Teko', sans-serif; */
         }
         .code-block{
-            max-width: 25rem;
+            max-width: 20rem;
             height:3rem;
             margin-top:1rem;
             background-color: rgb(0, 0, 34);
@@ -338,9 +392,19 @@
     /* padding:1rem; */
     overflow: hidden;
     }
-    
+    .contact-header{
+        text-align: center;
+        color:white;
+        font-weight: 400;
+        margin-top: 3rem;
+        font-size: 2rem;;
+    }
     
 }
-@media only screen and (max-width: 450px) {
-      
+@media only screen and (max-width: 400px) {
+    .logo{
+        padding-left:1rem;
+        display:none;
+        width: 50%;
+    }
 }
