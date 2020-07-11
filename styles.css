@@ -221,3 +221,79 @@ color:white;
     background-color: rgb(20, 201, 20);
     cursor:pointer;
 }
+
+.container {
+    max-width:50rem;
+    /* padding-right:1rem; */
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0.5rem;
+  }
+  
+ 
+  #contact {
+    background: #cce6cc;
+    padding: 2rem;
+    margin: 5rem 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 0.6rem;
+  }
+  
+  #contact h4 {
+    margin: 0.5rem 0 1rem;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+ 
+  .copyright {
+    text-align: center;
+  }
+  
+ 
