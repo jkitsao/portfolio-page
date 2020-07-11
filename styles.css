@@ -3,10 +3,14 @@ body{
     margin:0;
     padding: 0;
     background: rgb(255, 255, 255);
+    /* overflow: scroll; */
     /* background: linear-gradient(90deg, rgba(36,6,78,1) 0%, rgba(37,1,41,1) 50%, rgba(35,2,56,1) 100%); */
 }
 img{
     width:100%;
+}
+a{
+    text-decoration: none;
 }
 nav{
     padding:0.3rem 0;
@@ -161,10 +165,41 @@ width:50%;
 /* third section project section */
 
 .third-content{
-    height:70vh;
+    height:90vh;
+    background-color: #ffffff;
+    overflow: hidden;
 }
 .project-container{
-    width:70%;
-    margin:0 auto;
+    width:100%;
+    /* margin:0 auto; */
+    padding:1rem;
+}
+.project-text{
+    text-align: center;
+    font-size:3rem;
+    font-weight:700;
+    color:#f6fffe;
+}
+.first-project{
+    display:flex;
+    justify-content: center;
+
+}
+.project-image{
+    width:50%;
+    /* height:30rem; */
+}
+.first-image-img{
+    width:90%;
+}
+
+.first-project-desc{
     padding:3rem;
+    width:40%;
+}
+.first-project-desc h3{
+    font-size:3rem;
+}
+.first-project-desc p{
+    font-size:1.5rem;
 }
