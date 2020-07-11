@@ -5,6 +5,9 @@ body{
     background: rgb(255, 255, 255);
     /* background: linear-gradient(90deg, rgba(36,6,78,1) 0%, rgba(37,1,41,1) 50%, rgba(35,2,56,1) 100%); */
 }
+img{
+    width:100%;
+}
 nav{
     padding:0.3rem 0;
     background-color: rgb(0, 0, 15);
@@ -61,8 +64,8 @@ nav{
 .left-content{
 width:50%;
 height:100vh;
-padding:5.5rem;
-padding-top:3rem;
+padding:7.5rem;
+padding-top:9rem;
 }
 .content-text{
     font-size: 3rem;
@@ -73,7 +76,7 @@ padding-top:3rem;
 /* font-family: 'Teko', sans-serif; */
 }
 .code-block{
-    max-width: 30rem;
+    max-width: 25rem;
     height:6rem;
     margin-top:3rem;
     background-color: rgb(0, 0, 34);
@@ -89,7 +92,7 @@ padding-top:3rem;
     font-weight: 800;
     color:rgb(206, 186, 7);
     /* text-align: center; */
-    font-style:oblique;
+    /* font-style:oblique; */
 }
 
 .right-content{
@@ -103,7 +106,7 @@ width:50%;
 }
 
 .second-content{
-    height:80vh;
+    height:77vh;
     display:flex;
     background-color:#418e96;
     padding:3rem;
@@ -118,5 +121,50 @@ width:50%;
     object-fit: cover;
 }
 .second-right-content{
-    width:50%;
+    width:60%;
+    /* padding:1rem; */
+}
+.second-text{
+    color:white;
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+.section-cards{
+    display:flex;
+    /* flex-wrap: wrap; */
+    
+}
+
+.card{
+    width:45%;
+    margin:0.3rem 0.3rem;
+    box-shadow: 10px 5px 17px -10px rgb(41, 39, 41);
+    font-family: sans-serif;
+    background-color: #418e96;
+    border-radius:1rem;
+    overflow: hidden;
+}
+
+.card-header{
+    padding:0 1rem;
+}
+.card-title{
+    font-size: x-large;
+    color:rgb(233, 233, 233);
+}
+.card-p{
+    padding:0 1rem;
+    font-size: large;
+    color:rgb(244, 248, 24);
+}
+
+/* third section project section */
+
+.third-content{
+    height:70vh;
+}
+.project-container{
+    width:70%;
+    margin:0 auto;
+    padding:3rem;
 }

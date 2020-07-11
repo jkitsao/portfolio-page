@@ -16,7 +16,7 @@
       <div class="link-cont">
         <ul class="link-ul">
           <li><a href="/">About me</a></li>
-          <li><a href="/">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="/">Projects</a></li>
           <li><a href="/">Contact me</a></li>
         </ul>
@@ -30,7 +30,7 @@
           toward simplifying & Improving life.
         </h2>
         <div class="code-block">
-          <span class="console-text"></span>
+          <code class="console-text"></code>
         </div>
       </div>
       <div class="right-content">
@@ -40,23 +40,86 @@
 
     <!-- second content div -->
 
-    <div class="second-content">
+    <div class="second-content" id="skills">
       <div class="second-left-content">
         <img src="images/htmlbg.jpg" alt="html background" class="html-image" />
       </div>
       <div class="second-right-content">
         <h3 class="second-text">
-          Here are some of the languages i interact with
+          Here are some of the languages i interact with mostly
         </h3>
+        <div class="section-cards">
+          <!-- cards start here -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://bit.ly/2ZVxQeD" />
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">Html</h3>
+              </div>
+              <div class="card-p">
+                <p>
+                  Hypertext Markup Language is the standard markup language for
+                  documents designed to be displayed in a web browser
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- second card starts here -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://bit.ly/2W1vXvw" />
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">Css</h3>
+              </div>
+              <div class="card-p">
+                <p>
+                  Cascading Style Sheets is a style sheet language used for
+                  describing the presentation of a document
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- third card starts here -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://bit.ly/2CmLBKZ" />
+            </div>
+            <div class="card-content">
+              <div class="card-header">
+                <h3 class="card-title">Javascript</h3>
+              </div>
+              <div class="card-p">
+                <p>
+                  JavaScript is high-level, often just-in-time compiled, and
+                  multi-paradigm. It has curly-bracket syntax, dynamic typing,
+                  prototype-based object-orientation, and first-class functions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third-content">
+      <div class="project-container">
+        <div class="project-header">
+          <h2>Some of the projects i have worked on</h2>
+        </div>
       </div>
     </div>
 
     <script>
       var typed = new Typed(".console-text", {
-        strings: [":~$ console.log('hello world') : ^2000\n `Hello world`"],
+        strings: [":~$ console.log('hello world') : ^900\n `Hello world`"],
         typeSpeed: 80,
         startDelay: 1150,
         showCursor: false,
+        loop: true,
+        loopCount: Infinity,
       });
     </script>
   </body>
