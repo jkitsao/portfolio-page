@@ -189,4 +189,158 @@
             font-weight: 500;
         }
   }
-  
+  @media only screen and (max-width: 960px) {
+
+  }
+  @media only screen and (max-width: 700px) {
+      
+    .first-content{
+        display:block;
+        height:100%;
+    }
+    .left-content{
+        width:100%;
+        height:35vh;
+        padding:1.5rem;
+        padding-top:5rem;
+        }
+        .content-text{
+            font-size: 1.4rem;
+            font-weight: 500;
+            color:rgb(59, 2, 40);
+            font-family: 'Balsamiq Sans', cursive;
+            margin:0;
+        /* font-family: 'Teko', sans-serif; */
+        }
+        .code-block{
+            max-width: 25rem;
+            height:3rem;
+            margin-top:1rem;
+            background-color: rgb(0, 0, 34);
+           
+            display:flex;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        .console-text{
+            font-size: 1.2rem;
+            font-weight: 800;
+            color:rgb(206, 186, 7);
+            /* text-align: center; */
+            /* font-style:oblique; */
+        }
+    
+        .right-content{
+            width:100%;
+            }
+            .coder-image{
+                width:100%;
+                height:100%;
+                object-fit: contain;
+                border:none;
+            }
+            
+    .second-content{
+        height:100%;
+        display:block;
+        /* flex-wrap: wrap; */
+        background-color:#418e96;
+        padding:2rem;
+    } 
+    .second-left-content{
+        width:90%;
+    }
+    .html-image{
+        width:100%;
+        height:100%;
+        /* object-fit: contain; */
+        object-fit: cover;
+    }
+    .second-right-content{
+        overflow: scroll;
+        width:100%;
+        padding:1rem;
+    }
+    .second-text{
+        color:white;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .section-cards{
+        display:flex;
+        /* flex-wrap: wrap; */
+        
+    }
+    .card{
+        width:96%;
+        margin:0.3rem 0.3rem;
+        box-shadow: 10px 5px 17px -10px rgb(41, 39, 41);
+        font-family: sans-serif;
+        background-color: #418e96;
+        border-radius:1rem;
+        overflow: hidden;
+    }
+    
+    .card-header{
+        padding:0 1rem;
+    }
+    .card-title{
+        font-size: x-large;
+        color:rgb(233, 233, 233);
+    }
+    .card-p{
+        padding:0 1rem;
+        font-size: large;
+        color:rgb(244, 248, 24);
+    }
+    .third-content{
+        /* width:100%; */
+        /* margin:0 auto; */
+        padding:1rem;
+        height: 100%;
+        overflow: hidden;
+    }
+    .first-project{
+        display:block;
+        height: 100%;
+        /* justify-content: center; */
+    
+    }
+    .project-image{
+        width:100%;
+        /* height:30rem; */
+    }
+    .first-image-img{
+        width:100%;
+    }
+    
+    .first-project-desc{
+        /* padding:1rem; */
+        width:90%;
+    }
+    .first-project-desc h3{
+        font-size:1.8rem;
+        margin:0;
+        color:green;
+        font-weight: 500;
+    }
+    .container {
+        max-width:50rem;
+        /* padding-right:1rem; */
+        width: 95%;
+        /* margin: 0 auto; */
+        position: relative;
+        /* padding: 0.5rem; */
+      }
+      .contact-me{
+        background: rgb(38,69,73);
+        background: linear-gradient(90deg, rgba(38,69,73,1) 0%, rgba(11,72,78,1) 50%, rgba(8,19,77,1) 100%);
+    /* padding:1rem; */
+    overflow: hidden;
+    }
+    
+    
+}
+@media only screen and (max-width: 450px) {
+      
+}
