@@ -204,6 +204,7 @@ width:50%;
 }
 .first-project-desc p{
     font-size:1.5rem;
+    color:rgb(7, 148, 173);
 }
 .first-project-btn{
     width:9.6rem;
@@ -221,7 +222,18 @@ color:white;
     background-color: rgb(20, 201, 20);
     cursor:pointer;
 }
-
+.contact-me{
+    background: rgb(38,69,73);
+    background: linear-gradient(90deg, rgba(38,69,73,1) 0%, rgba(11,72,78,1) 50%, rgba(8,19,77,1) 100%);
+padding:6rem;
+}
+.contact-header{
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: 3rem;;
+}
 .container {
     max-width:50rem;
     /* padding-right:1rem; */

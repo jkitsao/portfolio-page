@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1600px) {
+    nav{
+        padding:0.1rem 0;
+        background-color: rgb(0, 0, 15);
+         background-position: center;
+         background-repeat: repeat-x;
+        display:flex;
+        justify-content:space-around;
+        border-bottom:0.2rem solid orange;
+    }
+    .logo{
+        padding-left:1rem;
+        display:flex;
+    }
+    .logo-image{
+        width:10%;
+        /* height:3.5rem; */
+    }
+    .logo-text{
+        color:rgb(228, 227, 235);
+        font-size: 2rem;
+        font-weight: 500;
+        
+    }
+    .typer{
+        color:green;
+    }
+    .link-cont{
+        display:flex;
+        align-items: center;
+        padding-right:0.5rem;
+    }
+    .link-ul{
+        display: flex;
+    }
+    .link-ul li{
+        margin-left:0.5rem;
+        margin-right:0.2rem;
+        list-style: none;
+    }
+    .link-ul li a{
+        text-decoration: none;
+        font-size: large;
+        color:lime;
+    }
+    .link-ul li a:hover{
+      color:white;
+    }
+  }
+  

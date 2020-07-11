@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <title>Portfolio-page</title>
   </head>
@@ -17,8 +18,8 @@
         <ul class="link-ul">
           <li><a href="/">About me</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="/">Projects</a></li>
-          <li><a href="/">Contact me</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
         </ul>
       </div>
     </nav>
@@ -105,7 +106,7 @@
       </div>
     </div>
     <div class="third-content">
-      <div class="project-container">
+      <div class="project-container" id="project">
         <div class="project-header">
           <h2 class="project-text">Some of the projects i have worked on</h2>
         </div>
@@ -117,11 +118,16 @@
             />
           </div>
           <div class="first-project-desc">
-            <h3>Devcrunch.com</h3>
+            <h3>Devcrib blog site</h3>
             <p class="frist-project-p">
-              A beginners guide blog to web development .. i decided to create
-              it to help myself because i found out that you can learn alot bya
-              teaching others
+              A beginners guide blog to web development tailoured to get anyone
+              into speed with the latest trends in the web development space
+              from javascript to react to gatsby, css, tailwind i cover every
+              topic. <br /><br />The website is created using nextjs static site
+              generator which is a react framework for serverside and static
+              website generation it has no backend, the content is populated
+              during build time from markdown files, and parced into html
+              content. For the styling i use tailwind css
             </p>
             <button class="first-project-btn">
               <a href="https://devcrunch.jkitsao.vercel.app/">
