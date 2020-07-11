@@ -199,7 +199,25 @@ width:50%;
 }
 .first-project-desc h3{
     font-size:3rem;
+    color:green;
+    font-weight: 500;
 }
 .first-project-desc p{
     font-size:1.5rem;
+}
+.first-project-btn{
+    width:9.6rem;
+    height:2.5rem;
+    background-color: green;
+    color:white;
+    font-size: large;
+    border:none;
+    outline: none;
+}
+.first-project-btn a{
+color:white;
+}
+.first-project-btn:hover{
+    background-color: rgb(20, 201, 20);
+    cursor:pointer;
 }
