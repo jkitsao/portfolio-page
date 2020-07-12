@@ -2,6 +2,7 @@
 ## [click  to view page live](https://jkitsao.github.io/portfolio-page/)
 ---
 This is a simple portfolio site ths showcases my web development skills
+
 ## features
 * About me section
 * my skills section
