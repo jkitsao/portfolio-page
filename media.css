@@ -348,7 +348,7 @@
         color:rgb(244, 248, 24);
     }
     .third-content{
-        /* width:100%; */
+        /* width:900%; */
         /* margin:0 auto; */
         padding:1rem;
         height: 100%;
@@ -404,6 +404,7 @@
 @media only screen and (max-width: 400px) {
     .logo{
         padding-left:1rem;
+
         display:none;
         width: 50%;
     }
