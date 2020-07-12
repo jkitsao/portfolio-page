@@ -314,4 +314,7 @@ color:white;
     text-align: center;
   }
   
- 
+ .footer{
+     height:10rem;
+     background-color: black;
+ }
