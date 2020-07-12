@@ -9,6 +9,7 @@ This is a simple portfolio site ths showcases my web development skills
 * Project section
 * contact me section
 ---
+
 ## Techstack used
 * html - markup language for the web
 * css -styling language for the document
