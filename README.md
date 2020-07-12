@@ -19,7 +19,7 @@ This is a simple portfolio site ths showcases my web development skills
 
 first clone this repo
 ```
-git clone https://github.com/jkitsao/simple-electron-react.git
+git clone https://github.com/jkitsao/portfolio-page.git
 ```
 open the folder using your prefered text editor
 ```
@@ -33,6 +33,6 @@ you can start by editing the index.html folder  and see the results on your brow
 
 **happy hacking**
 
-**you can find me on [twitter]('https://www.twitter.com/Jacksonkitsao5')**
+**you can find me on [twitter](https://www.twitter.com/Jacksonkitsao5)**
 
 
